@@ -24,6 +24,23 @@ one, to install the library do:
 pip install requests-oauthlib
 ```
 
+## How to get Arduino IoT Cloud Client Credentials
+
+You can generate Arduino IoT Cloud Client Credentials in the `ARDUINO API` section in the [IoT Cloud Integrations section](https://create.arduino.cc/iot/integrations):
+
+### Step 1
+
+![IoT Cloud Site](https://raw.githubusercontent.com/akash73/iot-client-py/master/img/selection_1.png)
+
+### Step 2
+
+![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_2.png?raw=true)
+
+### Step 3
+
+![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_3.png?raw=true)
+
+
 After installing the library you can use this Python code to get a token:
 
 ```python
@@ -43,7 +60,10 @@ token = oauth.fetch_token(
 )
 
 print(token.get("access_token"))
+
+
 ```
+For a working example, see [the example folder](https://github.com/arduino/iot-client-py/tree/master/example/request_token.py) in this repo.
 
 Once you get a token, you can create an instance of the iot-api client:
 
@@ -69,18 +89,3 @@ except ApiException as e:
 
 For a working example, see [the example folder](https://github.com/arduino/iot-client-py/tree/master/example/main.py) in this repo.
 
-## How to get Arduino IoT Cloud Client Credentials
-
-You can generate Arduino IoT Cloud Client Credentials in the `ARDUINO API` section in the [IoT Cloud things section](https://create.arduino.cc/iot/things):
-
-### Step 1
-
-![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_1.png?raw=true)
-
-### Step 2
-
-![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_2.png?raw=true)
-
-### Step 3
-
-![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_3.png?raw=true)
