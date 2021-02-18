@@ -63,7 +63,7 @@ print(token.get("access_token"))
 
 
 ```
-For a working example, see [the example folder](https://github.com/akash73/iot-client-py/tree/master/example/request_token.py) in this repo.
+For a working example, see [the example folder](https://github.com/akash73/iot-client-py/blob/master/example/token_request.py) in this repo.
 
 Once you get a token, you can create an instance of the iot-api client:
 
