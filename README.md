@@ -34,11 +34,11 @@ You can generate Arduino IoT Cloud Client Credentials in the `ARDUINO API` secti
 
 ### Step 2
 
-![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_2.png?raw=true)
+![IoT Cloud Site](https://raw.githubusercontent.com/akash73/iot-client-py/master/img/selection_2.png)
 
 ### Step 3
 
-![IoT Cloud Site](https://github.com/arduino/iot-client-js/blob/master/img/selection_3.png?raw=true)
+![IoT Cloud Site](https://raw.githubusercontent.com/akash73/iot-client-py/master/img/selection_3.png)
 
 
 After installing the library you can use this Python code to get a token:
